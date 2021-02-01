@@ -6,12 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="style.css" rel="stylesheet" type="text/css">
 <link rel="icon" type="image/png" href="https://verifyforaccess.teckniq.com/media/AccessO Logo.png"/>
-<link rel="icon" type="image/png" href="https://verifyforaccess.teckniq.com/media/AccessO Logo.png"/>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://kit.fontawesome.com/7f386b36b6.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://verifyforaccess.teckniq.com/script/javascript.js"> </script>
 </head>
 
 <body>
@@ -19,58 +17,38 @@
   		<div class="header-banner" id="">
 		  <div class="header-bar"> 
 				<div class="header-container">
-					<div  class="navigation">
-						<a href="#about">About</a>
-						<a href="#why-xpass">Why xPass</a>
-						<a href="#try-it">Get started</a>
-						<a href="#developers">Developers</a>
-						<a href="#partners">Partners</a>
-						<a href="#contact">Contact</a>
-					</div><br>
-					<div class="hamburgermenu">
+					<nav class="navigation" title="Site navigation">
+						<a href="#about" tabindex="0">About</a>
+						<a href="#why-xpass" tabindex="0">Why xPass</a>
+						<a href="#try-it" tabindex="0">Get started</a>
+						<a href="#developers" tabindex="0">Developers</a>
+						<a href="#partners" tabindex="0">Partners</a>
+						<a href="#contact" tabindex="0">Contact</a>
+					</nav><br>
+					<nav class="hamburgermenu">
 					<section class="menu-container">
- 
 					  <section class="material-design-hamburger">
-						<button class="material-design-hamburger__icon">
-						<span class="material-design-hamburger__layer"></span>
+						<button id="button" class="material-design-hamburger_icon">
+						<span class="material-design-hamburger_layer"></span>
 						</button>
 					  </section>
-
-					  <section class="menu menu--off">
-						<div style="margin-top: 25px"><a href="#mobile-about">About</a></div>
-						<div><a href="#mobile-why-xpass">Why xPass</a></div>
-						<div><a href="#mobile-try-it">Get started</a></div>
-						<div><a href="#mobile-contact">Contact</a></div>
-						
-					  </section>
-
+					  <ul class="menu-off" >
+						<li style="margin-top: 25px"><a href="#mobile-about">About</a></li>
+						<li><a href="#mobile-why-xpass">Why xPass</a></li>
+						<li></li><a href="#mobile-try-it">Get started</a></li>
+						<li><a href="#mobile-contact">Contact</a></li>
+						</ul>
 					</section>
-
 					<script  src="script/function.js"></script>
-					</div>
-					<div class="logo-container" >
-						<a href="https://verifyforaccess.com" target="_blank"><img src="media/AccessO Logo.png" href="https://verifyforaccess.com" width="70" height="70" alt=""></a>
-					</div>	
+					</nav>
+					<figure class="logo-container" tabindex="-1" >
+						<a href="https://verifyforaccess.com" target="_blank"><img src="media/AccessO Logo.png" href="https://verifyforaccess.com" width="70" height="70" alt="Accesso Logo" tabindex="-1" ></a>
+					</figure>	
 				</div>
 			</div>
 		</div>
 		</div>	
-		<script>
-			window.onscroll = function() {myFunction()};
 			
-			var header = document.getElementById("myHeader");
-			var sticky = header.offsetTop;
-			
-			function myFunction() {
-			  if (window.pageYOffset > sticky) {
-				header.classList.add("sticky");
-			  } else {
-				header.classList.remove("sticky");
-			  }
-			}
-			</script>
-			
-
 	<div class="main-desktop">
 		<div class="about" id="about">
 <div class="content">
@@ -81,32 +59,32 @@
 	<div class="full-flex">
  		<div class="one-third">
  			<i class="fas fa-mobile-alt" style="font-size: 3em; text-align: center; justify-content: center; width: 100%; color: #1e1e1e;"></i>
- 			<h4 style="text-align: center">Lightspeed onboarding</h4>
+ 			<h4 style="text-align: center" tabindex="0">Lightspeed onboarding</h4>
  			<p>As Accesso will have key roll of your visitor experiance we made it easy to use with a super fast user opt-on process. Bring your visitor experiance to the next level with Accesso´s verify for access protocall today.
 			</p>
  		</div>
  		<div class="one-third">
  			<i class="fas fa-project-diagram" style="font-size: 3em; text-align: center; justify-content: center; width: 100%; color: #1e1e1e;"></i>
- 			<h4 style="text-align:center;">Designed to fit all needs</h4>
+ 			<h4 style="text-align:center;" tabindex="0">Designed to fit all needs</h4>
  			<p>Accesso isn´t like no other verify for access solution. Its designed to be easy to implement anywhere, anytime. It can be used to open existing doors or be integreted with a gate access hardware unit.
 			</p>
  			
  		</div>
  		<div class="one-third-last">
  			<i class="fas fa-qrcode" style="font-size: 3em; text-align: center; justify-content: center; width: 100%; color: #1e1e1e;"></i>
- 			<h4 style="text-align:center;">Secure visitor verification</h4>
+ 			<h4 style="text-align:center;" tabindex="0">Secure visitor verification</h4>
  			<p>The Accesso´s verify for access process uses serveral high security steps to allow or decline the visitor access.<br>
  			  All user interactions needs be verifyed with Bank-ID, and the Accesso´s security protocall &nbsp; </p>
  		</div>	
  	</div>
 	<div class="full-flex" id="why-xpass" style="background:#202020">
 		<div class="two-third" style="padding: 10px 60px 10px 60px;">
-			<h1 style="text-align:left; color:#f4f4f4;">Why xPass?</h1>
+			<h1 style="text-align:left; color:#f4f4f4;" tabindex="0">Why xPass?</h1>
 			<p style="color: #f4f4f4">Like no other system, Accesso can be configurated in many ways. The xPass units make this possible and is desiged to be used as a stand alone unit mounted on a wall or integrated into a visitor gate unit. </p>
 			<p style="color: #f4f4f4">The xPass unit has integrated 3D camera for facial regonition or thermal health checking. Which it´s built in speeker and microphone you can communicate with your visitor. </p>
 			<p style="color: #f4f4f4">Desiged to give you the freedom to define your pwn uniqe verify for access process. </p>
 		</div>
-		<div class="one-third-last">
+		<div class="one-third-last" alt="System overview - hand holding a smartphone ready to scan QR-code on the wall mounted xPass unit">
  			<img  style="height: 500px; overflow: hidden;" src="media/Accessus XPass_X.png">
  		</div>	
  		
@@ -131,27 +109,27 @@
 		<div class="mobile-full-flex">
 			 <div class="mobile-full">
 				 <i class="fas fa-mobile-alt" style="font-size: 3em; text-align: center; justify-content: center; width: 100%; color: #1e1e1e;"></i>
-				 <h4 style="text-align: center">Lightspeed onboarding</h4>
+				 <h4 style="text-align: center" tabindex="0">Lightspeed onboarding</h4>
 				 <p>As Accesso will have key roll of your visitor experiance we made it easy to use with a super fast user opt-on process. Bring your visitor experiance to the next level with Accesso´s verify for access protocall today.
 				</p>
 			 </div>
 			 <div class="mobile-full">
 				 <i class="fas fa-project-diagram" style="font-size: 3em; text-align: center; justify-content: center; width: 100%; color: #1e1e1e;"></i>
-				 <h4 style="text-align:center;">Designed to fit all needs</h4>
+				 <h4 style="text-align:center;" tabindex="0">Designed to fit all needs</h4>
 				 <p>Accesso isn´t like no other verify for access solution. Its designed to be easy to implement anywhere, anytime. It can be used to open existing doors or be integreted with a gate access hardware unit.
 				</p>
 				 
 			 </div>
 			 <div class="mobile-full">
 				 <i class="fas fa-qrcode" style="font-size: 3em; text-align: center; justify-content: center; width: 100%; color: #1e1e1e;"></i>
-				 <h4 style="text-align:center;">Secure visitor verification</h4>
+				 <h4 style="text-align:center;"tabindex="0">Secure visitor verification</h4>
 				 <p>The Accesso´s verify for access process uses serveral high security steps to allow or decline the visitor access.<br>
 				   All user interactions needs be verifyed with Bank-ID, and the Accesso´s security protocall &nbsp; </p>
 			 </div>	
 		 </div>
 		<div class="mobile-full" id="mobile-why-xpass" style="background:#202020">
 			<div class="mobile-full" style="padding: 10px 14px 10px 14px; ">
-				<h1 style="color:#f4f4f4;">Why xPass?</h1>
+				<h1 style="color:#f4f4f4;"tabindex="0">Why xPass?</h1>
 				<p style="color: #f4f4f4">Like no other system, Accesso can be configurated in many ways. The xPass units make this possible and is desiged to be used as a stand alone unit mounted on a wall or integrated into a visitor gate unit. </p>
 				<p style="color: #f4f4f4">The xPass unit has integrated 3D camera for facial regonition or thermal health checking. Which it´s built in speeker and microphone you can communicate with your visitor. </p>
 				<p style="color: #f4f4f4">Desiged to give you the freedom to define your pwn uniqe verify for access process. </p>
@@ -175,50 +153,51 @@
 		<div class="footer-container">
 			<div class="footer-column">
 				<h1>Products</h1>
-				<h2 href="https://teckniq.com/core-pro-series/">IPC & 19" RACK CASES</h2>
-				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted/">Core Pro IPC RM</a><br>
+				<h2 href="https://teckniq.com/core-pro-series/" tabindex="0">IPC & 19" RACK CASES</h2>
+				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted/" tabindex="0">Core Pro IPC RM</a><br>
 
-				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted">Core Pro IPC X</a>
-				<h2 href="https://teckniq.com/products/commercial/">SELF-SERVICE KIOSKS</h2>
-				<a href="https://teckniq.com/products/commercial/artis-self-service-kiosk/">Artis</a><br>
-
-			  <a href="https://verifyforaccess.teckniq.com">Verify for Access</a>
-				<h2 href="https://teckniq.com/products/commercial/">DIGITAL SIGNAGE 2.0</h2>
-				<a href="https://teckniq.com/products/commercial/vendo-self-service-kiosk-ai-driven-digital-signage/">Vendo</a>
+				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted" tabindex="0">Core Pro IPC X</a>
+				<h2 href="https://teckniq.com/products/commercial/" tabindex="0">SELF-SERVICE KIOSKS</h2>
+				<a href="https://teckniq.com/products/commercial/artis-self-service-kiosk/" tabindex="0">Artis</a><br>
+				<a href="https://teckniq.com/products/commercial/vendo-self-service-kiosk-ai-driven-digital-signage/" tabindex="0">Vendo</a>
+			 
+				<h2 href="https://teckniq.com/products/commercial/" tabindex="0">VERIFY FOR ACCESS</h2>
+				 <a href="https://verifyforaccess.teckniq.com" tabindex="0">AccessO xPass</a>
 			</div>
 			<div class="footer-column">
-				<h1>Products</h1>
-				<h2 href="https://teckniq.com/core-pro-series/">IPC & 19" RACK CASES</h2>
-				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted/">Core Pro IPC RM</a><br>
-
-				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted">Core Pro IPC X</a>
-				<h2 href="https://teckniq.com/products/commercial/">SELF-SERVICE KIOSKS</h2>
-				<a href="https://teckniq.com/products/commercial/artis-self-service-kiosk/">Artis</a><br>
-
-			  <a href="https://verifyforaccess.teckniq.com">Verify for Access</a>
-				<h2 href="https://teckniq.com/products/commercial/">DIGITAL SIGNAGE 2.0</h2>
-				<a href="https://teckniq.com/products/commercial/vendo-self-service-kiosk-ai-driven-digital-signage/">Vendo</a>
+				<h1 style="color: #1e1e1e;">Products</h1>
+				<h2 href="https://teckniq.com/core-pro-series/" tabindex="0">DISPLAY STANDS</h2>
+				<a href="https://teckniq.com/products/av-display-stands/verso-display-stand/ "tabindex="0" >Verso</a><br>
+				<a href="https://teckniq.com/products/av-display-stands/linea-display-stand/ "tabindex="0" >Linea</a><br>
+				<a href="https://teckniq.com/products/av-display-stands/murus-display-stand/" tabindex="0">Murus</a><br>
+				<a href="https://teckniq.com/products/av-display-stands/gradus-display-stand/" tabindex="0">Gradus</a>
+				<h2 href="https://teckniq.com/products/touch-tables/" tabindex="0">TOUCH TABELS</h2>
+				<a href="https://teckniq.com/products/touch-tables/pivot/" tabindex="0">Pivot</a><br>
+				<a href="https://teckniq.com/products/touch-tables/ellipsus/" tabindex="0">Ellipsus</a><br>
+			  	<a href="https://teckniq.com/products/touch-tables/retro/" tabindex="0">Retro</a><br>
+				<a href="https://teckniq.com/products/touch-tables/basiq/" tabindex="0">Basiq</a>
+				
 			</div>
 			<div class="footer-column">
-				<h1>Products</h1>
-				<h2 href="https://teckniq.com/core-pro-series/">IPC & 19" RACK CASES</h2>
-				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted/">Core Pro IPC RM</a><br>
+				<h1>About</h1>
+				<h2 tabindex="0">QUALITY IN FOCUS</h2>
+				<a href="https://teckniq.com/reliability/" tabindex="0">Reliability</a><br>
+				<a href="https://teckniq.com/traceability/" tabindex="0">Traceability</a><br>
 
-				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted">Core Pro IPC X</a>
-				<h2 href="https://teckniq.com/products/commercial/">SELF-SERVICE KIOSKS</h2>
-				<a href="https://teckniq.com/products/commercial/artis-self-service-kiosk/">Artis</a><br>
-
-			  <a href="https://verifyforaccess.teckniq.com">Verify for Access</a>
-				<h2 href="https://teckniq.com/products/commercial/">DIGITAL SIGNAGE 2.0</h2>
-				<a href="https://teckniq.com/products/commercial/vendo-self-service-kiosk-ai-driven-digital-signage/">Vendo</a>
+				<h2 >HOW WE WORK</h2>
+				<a href="http://teckniq.com/about/our-design-process/" tabindex="0">Our design process</a><br>
+			  	<a href="http://teckniq.com/about/project-customization/" tabindex="0">Project customization</a><br>
+			  	<a href="https://teckniq.com/partnership/" tabindex="0">The value of partnership</a>
+				<h2 >WHO WE ARE</h2>
+				<a href="https://teckniq.com/about/" tabindex="0">Our focus & misson</a>
 			</div>
 			<div class="footer-column">
-				<h1>Contact</h1>
+				<h1 tabindex="0">Contact</h1>
 				<h2>SWEDEN (HQ)</h2>
 				<p style="font-size: 0.7em;">Tomtebogatan 21<br>
 				SE 113 39 Stockholm<br>
-				+46705377544<br>
-					info@teckniq.com</p>
+				<p style="font-size: 11px; line-height: 0.4em;" href="tel:+46705377544" tabindex="0" target="_blank">+46705377544</p>
+				<p style="font-size: 11px; line-height: 0.4em;" href="mailto:info@teckniq.com" tabindex="0" target="_blank">info@teckniq.com</p>
 			
 				<h2>NORTH AMERICA</h2>
 				<p style="font-size: 0.7em;">330 Adelaide Street East<br>
@@ -231,7 +210,7 @@
 				
 			</div>
 			<div class="footer-column">
-				<img src="media/TECKNIQ_Logo_C3MBR0_W-L - kopia.png" width="80%" height="auto" alt=""/>
+				<img src="media/TECKNIQ_Logo_C3MBR0_W-L - kopia.png" width="80%" height="auto" alt="TECKNIQ Logo"/>
 				<p style="font-size: 0.7em;">TECKNIQ™ develops and manufactures products with a distinct Scandinavian design. <br><br>
 						By putting quality and attention to detail at the forefront is what has ultimately paved the way for our success. <br><br>
 
@@ -247,40 +226,41 @@
 		<div class="mobile-footer-container">
 			<div class="mobile-footer-column">
 				<h1>Products</h1>
-				<h2 href="https://teckniq.com/core-pro-series/">IPC & 19" RACK CASES</h2>
-				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted/">Core Pro IPC RM</a><br>
+				<h2 href="https://teckniq.com/core-pro-series/" tabindex="0">IPC & 19" RACK CASES</h2>
+				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted/" tabindex="0">Core Pro IPC RM</a><br>
 
-				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted">Core Pro IPC X</a>
-				<h2 href="https://teckniq.com/products/commercial/">SELF-SERVICE KIOSKS</h2>
-				<a href="https://teckniq.com/products/commercial/artis-self-service-kiosk/">Artis</a><br>
-
-			  <a href="https://verifyforaccess.teckniq.com">Verify for Access</a>
-				<h2 href="https://teckniq.com/products/commercial/">DIGITAL SIGNAGE 2.0</h2>
-				<a href="https://teckniq.com/products/commercial/vendo-self-service-kiosk-ai-driven-digital-signage/">Vendo</a>
+				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted" tabindex="0">Core Pro IPC X</a>
+				<h2 href="https://teckniq.com/products/commercial/" tabindex="0">SELF-SERVICE KIOSKS</h2>
+				<a href="https://teckniq.com/products/commercial/artis-self-service-kiosk/" tabindex="0">Artis</a><br>
+				<a href="https://teckniq.com/products/commercial/vendo-self-service-kiosk-ai-driven-digital-signage/" tabindex="0">Vendo</a>
+			 
+				<h2 href="https://teckniq.com/products/commercial/" tabindex="0">VERIFY FOR ACCESS</h2>
+				 <a href="https://verifyforaccess.teckniq.com" tabindex="0">AccessO xPass</a>
 			</div>
 			<div class="mobile-footer-column">
-				<h2 href="https://teckniq.com/core-pro-series/">IPC & 19" RACK CASES</h2>
-				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted/">Core Pro IPC RM</a><br>
-
-				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted">Core Pro IPC X</a>
-				<h2 href="https://teckniq.com/products/commercial/">SELF-SERVICE KIOSKS</h2>
-				<a href="https://teckniq.com/products/commercial/artis-self-service-kiosk/">Artis</a><br>
-
-			  <a href="https://verifyforaccess.teckniq.com">Verify for Access</a>
-				<h2 href="https://teckniq.com/products/commercial/">DIGITAL SIGNAGE 2.0</h2>
-				<a href="https://teckniq.com/products/commercial/vendo-self-service-kiosk-ai-driven-digital-signage/">Vendo</a>
+				<h2 href="https://teckniq.com/core-pro-series/" tabindex="0">DISPLAY STANDS</h2>
+				<a href="https://teckniq.com/products/av-display-stands/verso-display-stand/ "tabindex="0" >Verso</a><br>
+				<a href="https://teckniq.com/products/av-display-stands/linea-display-stand/ "tabindex="0" >Linea</a><br>
+				<a href="https://teckniq.com/products/av-display-stands/murus-display-stand/" tabindex="0">Murus</a><br>
+				<a href="https://teckniq.com/products/av-display-stands/gradus-display-stand/" tabindex="0">Gradus</a>
+				<h2 href="https://teckniq.com/products/touch-tables/" tabindex="0">TOUCH TABELS</h2>
+				<a href="https://teckniq.com/products/touch-tables/pivot/" tabindex="0">Pivot</a><br>
+				<a href="https://teckniq.com/products/touch-tables/ellipsus/" tabindex="0">Ellipsus</a><br>
+			  	<a href="https://teckniq.com/products/touch-tables/retro/" tabindex="0">Retro</a><br>
+				<a href="https://teckniq.com/products/touch-tables/basiq/" tabindex="0">Basiq</a>
 			</div>
 			<div class="mobile-footer-column">
-				<h2 href="https://teckniq.com/core-pro-series/">IPC & 19" RACK CASES</h2>
-				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted/">Core Pro IPC RM</a><br>
+				<h1>About</h1>
+				<h2 tabindex="0">QUALITY IN FOCUS</h2>
+				<a href="https://teckniq.com/reliability/" tabindex="0">Reliability</a><br>
+				<a href="https://teckniq.com/traceability/" tabindex="0">Traceability</a><br>
 
-				<a href="https://teckniq.com/core-pro-series/19-cases-rack-mounted">Core Pro IPC X</a>
-				<h2 href="https://teckniq.com/products/commercial/">SELF-SERVICE KIOSKS</h2>
-				<a href="https://teckniq.com/products/commercial/artis-self-service-kiosk/">Artis</a><br>
-
-			  <a href="https://verifyforaccess.teckniq.com">Verify for Access</a>
-				<h2 href="https://teckniq.com/products/commercial/">DIGITAL SIGNAGE 2.0</h2>
-				<a href="https://teckniq.com/products/commercial/vendo-self-service-kiosk-ai-driven-digital-signage/">Vendo</a>
+				<h2 >HOW WE WORK</h2>
+				<a href="http://teckniq.com/about/our-design-process/" tabindex="0">Our design process</a><br>
+			  	<a href="http://teckniq.com/about/project-customization/" tabindex="0">Project customization</a><br>
+			  	<a href="https://teckniq.com/partnership/" tabindex="0">The value of partnership</a>
+				<h2 >WHO WE ARE</h2>
+				<a href="https://teckniq.com/about/" tabindex="0">Our focus & misson</a>
 			</div>
 			<div class="mobile-footer-column">
 				<h1>Contact</h1>

@@ -4,9 +4,9 @@ var header = document.getElementById("myHeader");
 var mySticky = header.offsetTop;
 
 function mySticky() {
-  if ((window.pageYOffset) >= 50); {
+  if ((window.pageYOffset) >= 50) {
     header.classList.add ("sticky");
-  } else {
+  } else  {
     header.classList.remove ("sticky");
   }
 
